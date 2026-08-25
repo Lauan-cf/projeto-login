@@ -30,10 +30,19 @@ section#login
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    padding: 10px;
+
 }
 
 #formulário
 {
-    
+    padding: 10px;
+}
+
+#imagem
+{
+    width: 80vw;
+    height: 35vh;
+    background: black url(../imagens/pexels-aboodi-15198864.jpg) no-repeat left center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
 }
