@@ -80,3 +80,24 @@ h1
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
 }
+
+#enviar
+{
+    color: white;
+    background-color: #50AAA3;
+    height: clamp(5px, 40px, 50px);
+}
+
+#enviar:hover
+{
+    background-color: #2D655F;
+}
+
+#esqueci
+{
+    width: clamp(230px, 52vw, 365px);
+    height: clamp(5px, 40px, 40px);
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: auto;
+}
