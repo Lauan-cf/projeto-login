@@ -55,14 +55,21 @@ section#login
 
 input
 {
-    background-color: #49a09dd8;
+    display: inline-block;
+    background-color: white;
     width: clamp(230px, 52vw, 370px);
     height: clamp(5px, 30px, 60px);
     border-radius: 10px;
 }
 
+input:placeholder-shown
+{
+    background-color: #49a09dd8;
+}
+
 label
 {
+    display: inline-block;
     background-color: var(--lilas);
     border-radius: 10px;
 }
@@ -74,7 +81,7 @@ h1
 
 .info
 {
-    display: block;
+   
     margin-bottom: clamp(1px, 5px, 3px);
     background-color: var(--lilas);
     padding: 10px 10px 10px 10px;
@@ -100,4 +107,11 @@ h1
     border: 2px solid gray;
     border-radius: 10px;
     margin: auto;
+    color: gray;
 }
+
+.material-symbols-rounded {
+  font-variation-settings: 'FILL' 1;
+}
+
+
