@@ -60,11 +60,18 @@ input
     width: clamp(230px, 52vw, 370px);
     height: clamp(5px, 30px, 60px);
     border-radius: 10px;
+    
 }
 
 input:placeholder-shown
 {
-    background-color: #49a09dd8;
+    background-color: #94CFCB;
+}
+
+input::placeholder
+{
+    color: #49a09dcc;
+    
 }
 
 label
@@ -86,12 +93,14 @@ h1
     background-color: var(--lilas);
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
+    height: clamp();
 }
 
 .info input
 {
     display: inline-block;
     width: 80%;
+    padding-left: 5px;
 }
 
 .info label
@@ -137,7 +146,7 @@ h1
 
 #mail
 {
-    margin-top: 100px;
+    padding: 10px;
     color: gray;
     vertical-align:middle;
 }
