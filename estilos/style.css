@@ -84,23 +84,26 @@ label
 h1
 {
     text-align: center;
+    margin-bottom: clamp(1px, 5px, 5px);
 }
 
 .info
 {
-   
-    margin-bottom: clamp(1px, 5px, 3px);
+    margin-top: clamp(1px, 5px, 5px);
+    margin-bottom: clamp(1px, 5px, 5px);
     background-color: var(--lilas);
-    padding: 10px 10px 10px 10px;
+    padding: clamp(0.1px, 1.5px, 2px) 0px clamp(0.1px, 1px, 1.5px) 10px;
     border-radius: 10px;
-    height: clamp();
+    height: clamp(20px, 5vh, 50px);
 }
 
 .info input
 {
     display: inline-block;
-    width: 80%;
-    padding-left: 5px;
+    width: 87%;
+    padding-left: clamp(1px, 5px, 5px);
+    height: clamp(1px, 4.89vh, 45px);
+    border: none;
 }
 
 .info label
@@ -113,9 +116,13 @@ h1
 
 #enviar
 {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
     color: white;
     background-color: #50AAA3;
-    height: clamp(5px, 40px, 50px);
+    height: clamp(5px, 45px, 50px);
+    border: none;
 }
 
 #enviar:hover
