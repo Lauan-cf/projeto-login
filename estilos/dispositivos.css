@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
-@media screen and (){
+@media screen and (min-width: 768px)
+{
+    body
+    {
+        background:black linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login
+    {
+        width: clamp(250px, 75vw, 1000px);
+        height: 40vh;
+
+    }
+
+    #imagem
+    {
+        width: clamp(30px, 25vw, 30vw);
+        height: 40vh;
+        border-radius: 20px 0px 0 20px;
+    }
+
+    #formulário
+    {
+        width: 30vw;
+    }
     
-}
+}    
