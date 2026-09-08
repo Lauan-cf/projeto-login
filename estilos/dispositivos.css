@@ -23,7 +23,31 @@
 
     #formulário
     {
-        width: 30vw;
+        width: clamp(10%, 66%, 67%);
+        margin: auto;
+        
+    }
+
+    .info input
+    {
+        width: clamp(5px, 92%, 100%);
+    }
+
+    #enviar
+    {
+        margin-top: clamp(2px, 10px, 10px);
+        margin-bottom: clamp(2px, 10px, 10px);
+    }
+
+    #formulário, #imagem
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #imagem
+    {
+        width: 30%;
     }
     
 }    

@@ -118,7 +118,8 @@ h1
 {
     display: block;
     margin: auto;
-    margin-top: 5px;
+    margin-top: clamp(2px, 5px, 5px);
+    margin-bottom: clamp(2px, 5px, 5px);
     color: white;
     background-color: #50AAA3;
     height: clamp(5px, 45px, 50px);
@@ -132,6 +133,7 @@ h1
 
 #esqueci
 {
+    
     width: clamp(230px, 52vw, 365px);
     height: clamp(5px, 40px, 40px);
     border: 2px solid gray;
