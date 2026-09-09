@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) /* Tablet */
 {
     body
     {
@@ -11,7 +11,6 @@
     {
         width: clamp(250px, 75vw, 1000px);
         height: 40vh;
-
     }
 
     #imagem
@@ -19,6 +18,7 @@
         width: clamp(30px, 25vw, 30vw);
         height: 40vh;
         border-radius: 20px 0px 0 20px;
+        width: 30%;
     }
 
     #formulário
@@ -30,7 +30,7 @@
 
     .info input
     {
-        width: clamp(5px, 92%, 100%);
+        width: 93%;
     }
 
     #enviar
@@ -43,11 +43,27 @@
     {
         display: inline-block;
         vertical-align: top;
+    }    
+}
+
+@media screen and (min-width: 1023px) /* Desktop ou maior */
+{
+    #login
+    {
+        position: relative;
     }
 
     #imagem
     {
-        width: 30%;
+        position: absolute;
+        right: 0;
+        border-radius: 0px 20px 20px 0px;
+        width: 45%;
     }
-    
-}    
+
+       #formulário
+    {
+        
+        max-width: 53%;
+    }
+}

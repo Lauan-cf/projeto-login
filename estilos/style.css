@@ -41,7 +41,7 @@ section#login
 
 #formulário
 {
-    padding: 10px;
+    padding: clamp(2px, 5px, 10px);
 }
 
 #imagem
@@ -92,25 +92,32 @@ h1
     margin-top: clamp(1px, 5px, 5px);
     margin-bottom: clamp(1px, 5px, 5px);
     background-color: var(--lilas);
-    padding: clamp(0.01px, 1.5px, 2px) 0px clamp(0.1px, 1px, 1.5px) 10px;
+    padding: clamp(0.01px, 1.5px, 2px) 0px clamp(0.1px, 1px, 1.5px) clamp(1px, 5px, 10px);
     border-radius: 10px;
     height: clamp(20px, 5vh, 50px);
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 0;
 }
 
 .info input
 {
     display: inline-block;
-    width: clamp(5px, 87%, 100%);
+    width: 94.5%;
     padding-left: clamp(1px, 5px, 5px);
+    padding-bottom: clamp(1px, 5px, 5px);
     height: clamp(1px, 4.89vh, 45px);
     border: none;
+    box-sizing: border-box;
 }
 
 .info label
 {
    display: inline-block;
-   font-size: 30px;
-   width: 35px;
+   font-size: 25px;
+   width: 5%;
    vertical-align: middle;
 }
 
