@@ -19,6 +19,7 @@
         height: 40vh;
         border-radius: 20px 0px 0 20px;
         width: 30%;
+        background-position: top right;
     }
 
     #formulário
@@ -30,7 +31,7 @@
 
     .info input
     {
-        width: 93%;
+        width: 93.2%;
     }
 
     #enviar
@@ -43,7 +44,15 @@
     {
         display: inline-block;
         vertical-align: top;
-    }    
+    }
+    .info .ícone
+    {
+        display: inline-block;
+        font-size: 25px;
+        width: 6.5%;
+        vertical-align: middle;
+        padding-right: 0px;
+    }
 }
 
 @media screen and (min-width: 1023px) /* Desktop ou maior */
@@ -59,6 +68,7 @@
         right: 0;
         border-radius: 0px 20px 20px 0px;
         width: 45%;
+        background-position: bottom left;
     }
 
        #formulário
