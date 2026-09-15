@@ -36,7 +36,7 @@ section#login
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    transition: all 0.5s easy-in-out;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 #formulário
