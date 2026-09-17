@@ -9,24 +9,23 @@
 
     section#login
     {
-        width: clamp(250px, 75vw, 1000px);
+        width: 80vw;
         height: 40vh;
         transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
     }
 
     #imagem
     {
-        width: clamp(30px, 25vw, 30vw);
         height: 40vh;
         border-radius: 20px 0px 0 20px;
-        width: 30%;
+        width: 29%;
         background-position: top right;
     }
 
     #formulário
     {
-        width: clamp(10%, 66%, 67%);
-        margin: auto;
+        width: clamp(10%, 68.5%, 68.5%);
+        float: right;
         
     }
 
@@ -46,11 +45,11 @@
         display: inline-block;
         vertical-align: top;
     }
-    .info .ícone
+    .info .icone
     {
         display: inline-block;
         font-size: 25px;
-        width: 6.5%;
+        width: 6.7%;
         vertical-align: middle;
         padding-right: 0px;
     }
@@ -62,6 +61,7 @@
     {
         position: relative;
         transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+        width: 990px !important;
     }
 
     #imagem
@@ -75,7 +75,7 @@
 
        #formulário
     {
-        
-        max-width: 53%;
-    }
+        width: 53%;
+        float: left;
+    }   
 }
