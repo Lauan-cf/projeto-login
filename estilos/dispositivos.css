@@ -71,6 +71,7 @@
         border-radius: 0px 20px 20px 0px;
         width: 45%;
         background-position: bottom left;
+        float: right;
     }
 
        #formulário
@@ -78,4 +79,14 @@
         width: 53%;
         float: left;
     }   
+
+    p
+    {
+        font-size: 1.2em;
+    }
+
+    h1
+    {
+        font-size: 2em;
+    }
 }

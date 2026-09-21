@@ -96,6 +96,11 @@ h1
     margin-bottom: clamp(1px, 5px, 5px);
 }
 
+p
+{
+    font-size: 1em;
+}
+
 .info
 {
     margin-top: clamp(1px, 5px, 5px);
