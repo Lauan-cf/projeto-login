@@ -34,7 +34,7 @@
         width: 93.2%;
     }
 
-    #enviar
+    input[type=submit]
     {
         margin-top: clamp(2px, 10px, 10px);
         margin-bottom: clamp(2px, 10px, 10px);

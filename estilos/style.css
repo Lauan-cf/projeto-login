@@ -98,7 +98,7 @@ h1
 
 p
 {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .info
@@ -106,7 +106,7 @@ p
     margin-top: clamp(1px, 5px, 5px);
     margin-bottom: clamp(1px, 5px, 5px);
     background-color: var(--lilas);
-    padding: clamp(0.01px, 1.5px, 2px) 0px clamp(0.1px, 1px, 1.5px) clamp(1px, 5px, 10px);
+    padding: clamp(0.01px, 1px, 2px) 0px clamp(0.1px, 1px, 1.5px) clamp(1px, 5px, 10px);
     border-radius: 10px;
     height: clamp(20px, 5vh, 50px);
     width: 100%;
@@ -123,7 +123,7 @@ p
     padding-left: clamp(1px, 5px, 5px);
     padding-bottom: clamp(1px, 5px, 5px);
     height: clamp(1px, 4.89vh, 45px);
-    border: none;
+    border: 1px solid var(--lilas);
     box-sizing: border-box;
 }
 
@@ -136,7 +136,7 @@ p
    padding-right: 6px;
 }
 
-#enviar
+input[type=submit]
 {
     display: block;
     margin: auto;
@@ -146,16 +146,18 @@ p
     background-color: #50AAA3;
     height: clamp(5px, 45px, 50px);
     border: none;
+    cursor: pointer;
+    font-size: 0.8em;
 }
 
-#enviar:hover
+input[type=submit]:hover
 {
     background-color: #2D655F;
 }
 
 #esqueci
 {
-    
+    display: block;
     width: clamp(230px, 52vw, 365px);
     height: clamp(5px, 40px, 40px);
     border: 2px solid gray;
@@ -163,6 +165,8 @@ p
     margin: auto;
     color: gray;
     text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
 }
 
 #esqueci:hover
